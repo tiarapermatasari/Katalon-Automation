@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>Test Data Vital Sign</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>false</rerunImmediately>
+   <testSuiteGuid>f7609348-2f3b-49d9-bc40-8cff5b844662</testSuiteGuid>
+   <testCaseLink>
+      <guid>d6fe44a5-aef6-47c3-a2a5-52604f5c9afb</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Web/Vital Sign/TC003 - Test Data Add Vital Sign</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>c509e97d-c26f-49aa-ad9c-1e340cf7a4a0</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/TDD Vital Sign</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>c509e97d-c26f-49aa-ad9c-1e340cf7a4a0</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>bpSistolik</value>
+         <variableId>e35d882a-0dff-48ee-b5e2-030357cc7296</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>c509e97d-c26f-49aa-ad9c-1e340cf7a4a0</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>bpDiastolik</value>
+         <variableId>08adf1ea-7a84-4b29-a7c3-213b2b7e43e3</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>c509e97d-c26f-49aa-ad9c-1e340cf7a4a0</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>heartRate</value>
+         <variableId>b5769c4e-748e-4496-aa3a-9646d6d1082f</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>c509e97d-c26f-49aa-ad9c-1e340cf7a4a0</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>respirationRate</value>
+         <variableId>3c96409d-23d5-418b-99d4-074d87e253d4</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>c509e97d-c26f-49aa-ad9c-1e340cf7a4a0</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>bodyTemperature</value>
+         <variableId>5b0b0e9e-1da1-4acd-9950-11eaa2eba1b7</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

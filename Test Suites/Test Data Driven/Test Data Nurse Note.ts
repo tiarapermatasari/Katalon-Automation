@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>Test Data Nurse Note</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>false</rerunImmediately>
+   <testSuiteGuid>c040d834-b1f9-4a67-8941-4e4b0b1fc764</testSuiteGuid>
+   <testCaseLink>
+      <guid>bc98b52d-7636-4d38-8672-2082d4d70c3b</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Web/Nurse Notes/TC004- Test Data Add Nurse Note</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>008e2bbd-bf7b-4766-be53-9d5c44efacf1</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/TDD Nurse Note</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>008e2bbd-bf7b-4766-be53-9d5c44efacf1</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>subjective</value>
+         <variableId>9d317766-a13c-4945-91b2-2eda593be500</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>008e2bbd-bf7b-4766-be53-9d5c44efacf1</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>objective</value>
+         <variableId>2a476071-e6a9-412a-8212-ac64c82ff65d</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>008e2bbd-bf7b-4766-be53-9d5c44efacf1</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>assement</value>
+         <variableId>635cf7a6-37e2-4209-b51b-19c8ed3c9bea</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>008e2bbd-bf7b-4766-be53-9d5c44efacf1</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>plan</value>
+         <variableId>c77ec232-05e0-44fd-8143-3170ab29de95</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>
